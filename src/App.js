@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Belajar Custome Hooks</h1>
+      <h1>Belajar Custom Hooks</h1>
       <label>Name</label>
       <input type="text" onChange={onChangeName} value={name} />
       <button onClick={onResetName}>Reset</button>
